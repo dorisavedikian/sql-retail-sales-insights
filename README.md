@@ -10,6 +10,7 @@ This project analyzes a fictional retail dataset (Superstore) using SQL queries 
 
 ---
 
+
 ---
 
 ## 📁 Dataset Source
@@ -41,7 +42,23 @@ sql-retail-sales-insights/
 
 ---
 
-## 🔍 Sample Analysis Goals
+
+---
+
+## 🔍 Current Analysis Goals
+
+- ✅ Total sales by region
+- ✅ Top-selling products by profit
+- ✅ Average shipping delay by shipping mode
+
+---
+
+## 📌 Future Analysis Ideas
+
+- 📅 Sales trends over time (monthly or quarterly)
+- 🧑‍💼 Customer segments with highest revenue
+- 📦 Category-level performance
+
 
 - Total sales by region and category
 - Top-selling products by profit
@@ -86,6 +103,20 @@ sql-retail-sales-insights/
 
 ---
 
+## 📈 Example Visualization
+
+> Add an image from the `visuals/` folder once you have charts!
+
+```python
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+sns.barplot(data=df_sales, x='Region', y='TotalSales')
+plt.title('Total Sales by Region')
+```
+
+---
+
 ## 💡 Future Improvements
 
 - Interactive dashboard using Plotly or Streamlit
@@ -101,6 +132,41 @@ Data Scientist | Python + SQL Enthusiast
 [GitHub](https://github.com/dorisavedikian)
 
 ---
+
+
+---
+
+## 🖥️ Interactive Dashboard (Plotly Dash)
+
+This project also includes an interactive dashboard built with [Dash](https://dash.plotly.com/) and Plotly. The dashboard allows users to explore:
+
+- 📈 Monthly sales trends
+- 🧑‍💼 Revenue by customer segment
+- 🛍️ Top 10 products by profit
+- 🚚 Average shipping delay by shipping mode
+
+### ▶️ How to Run It Locally
+
+1. Make sure your virtual environment is activated:
+   ```bash
+   source venv/bin/activate  # or venv\Scripts\activate on Windows
+   ```
+
+2. Install the required libraries:
+   ```bash
+   pip install dash plotly
+   ```
+
+3. Run the dashboard:
+   ```bash
+   python dashboard.py
+   ```
+
+4. Open your browser and go to:
+   [http://127.0.0.1:8050](http://127.0.0.1:8050)
+
+More features like filters and drill-downs can be added in the future.
+
 
 ## 📄 License
 
