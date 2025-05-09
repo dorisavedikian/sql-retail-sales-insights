@@ -103,39 +103,6 @@ sql-retail-sales-insights/
 
 ---
 
-## 📈 Example Visualization
-
-> Add an image from the `visuals/` folder once you have charts!
-
-```python
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-sns.barplot(data=df_sales, x='Region', y='TotalSales')
-plt.title('Total Sales by Region')
-```
-
----
-
-## 💡 Future Improvements
-
-- Interactive dashboard using Plotly or Streamlit
-- Export reports to PDF or Excel
-- Schedule automated analysis
-
----
-
-## 🧑‍💻 Author
-
-**Doris Avedikian**  
-Data Scientist | Python + SQL Enthusiast  
-[GitHub](https://github.com/dorisavedikian)
-
----
-
-
----
-
 ## 🖥️ Interactive Dashboard (Plotly Dash)
 
 This project also includes an interactive dashboard built with [Dash](https://dash.plotly.com/) and Plotly. The dashboard allows users to explore:
@@ -167,6 +134,22 @@ This project also includes an interactive dashboard built with [Dash](https://da
 
 More features like filters and drill-downs can be added in the future.
 
+---
+
+## 💡 Future Improvements
+
+- Export reports to PDF or Excel
+- Schedule automated analysis
+
+---
+
+## 🧑‍💻 Author
+
+**Doris Avedikian**  
+Data Scientist | Python + SQL Enthusiast  
+[GitHub](https://github.com/dorisavedikian)
+
+---
 
 ## 📄 License
 
