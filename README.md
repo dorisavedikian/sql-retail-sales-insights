@@ -10,6 +10,12 @@ This project analyzes a fictional retail dataset (Superstore) using SQL queries 
 
 ---
 
+---
+
+## 📁 Dataset Source
+
+The dataset used in this project is the [Sample Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final), available on Kaggle. It simulates a retail store's orders and contains information about customer segments, products, shipping details, and financial metrics such as sales and profit.
+
 ## 🗂️ Project Structure
 
 ```
