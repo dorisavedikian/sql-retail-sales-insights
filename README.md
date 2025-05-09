@@ -86,20 +86,6 @@ sql-retail-sales-insights/
 
 ---
 
-## 📈 Example Visualization
-
-> Add an image from the `visuals/` folder once you have charts!
-
-```python
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-sns.barplot(data=df_sales, x='Region', y='TotalSales')
-plt.title('Total Sales by Region')
-```
-
----
-
 ## 💡 Future Improvements
 
 - Interactive dashboard using Plotly or Streamlit
