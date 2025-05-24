@@ -53,21 +53,6 @@ sql-retail-sales-insights/
 
 ---
 
-## 📌 Future Analysis Ideas
-
-- 📅 Sales trends over time (monthly or quarterly)
-- 🧑‍💼 Customer segments with highest revenue
-- 📦 Category-level performance
-
-
-- Total sales by region and category
-- Top-selling products by profit
-- Sales trends over time
-- Shipping delays and their impact
-- Customer segments with highest revenue
-
----
-
 ## 🛠️ Tech Stack
 
 - Python 3
@@ -133,13 +118,6 @@ This project also includes an interactive dashboard built with [Dash](https://da
    [http://127.0.0.1:8050](http://127.0.0.1:8050)
 
 More features like filters and drill-downs can be added in the future.
-
----
-
-## 💡 Future Improvements
-
-- Export reports to PDF or Excel
-- Schedule automated analysis
 
 ---
 
